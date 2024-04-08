@@ -1,0 +1,10 @@
+.wishlist {
+    position: relative;
+}
+
+.closeWishList {
+    position: absolute;
+    top: 18px;
+    z-index: 9;
+    right: 9px;
+}

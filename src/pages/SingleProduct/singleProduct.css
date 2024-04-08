@@ -1,0 +1,103 @@
+.singleProductContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.singleProductImage {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.singleProductAllImages {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.singleProductAllImage {
+    border: 1px solid #f0f0f0;
+    padding: 5px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.singleProductAllImageActive {
+    border: 1px solid #aaaaaa;
+}
+
+.singleProductImages img {
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.singleProductDescription {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.singleProductDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.reviewContainer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.reviewIcons {
+    display: flex;
+    gap: 1px;
+}
+
+.reviewIcon {
+    color: #d0d0d0;
+}
+
+.price {
+    display: flex;
+    gap: 5px;
+}
+
+.price p span {
+    text-decoration: line-through;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.details li {
+    font-weight: 600;
+}
+
+.singleProductTitle {
+    font-weight: 600;
+}
+
+.details li span {
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.singleProductBtn {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

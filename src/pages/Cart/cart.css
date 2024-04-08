@@ -1,0 +1,104 @@
+.cartHeader {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+}
+
+.cartProducts {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartProduct {
+    display: flex;
+    gap: 20px;
+    border: 0.2px solid #d1cccc;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.cartProductImage {
+    object-fit: cover;
+}
+
+.cartProductDetails {
+    width: 100%;
+}
+
+.cartSummary {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.cartPriceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.quantityContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.quantityContainer input {
+    width: 22px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.incButton,
+.decButton {
+    padding: 0 5px;
+    outline: none;
+    border: 0.2px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 18px;
+    width: 22px;
+    border-radius: 3px;
+}
+
+.cartProductHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.removeIcon {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+    .cartHeader {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .cartProduct {
+        padding: 10px 10px;
+    }
+}

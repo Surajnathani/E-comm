@@ -1,0 +1,251 @@
+.homeMainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.homeContainer {
+    background-color: #EEF5FF;
+    height: 80vh;
+    min-height: 600px;
+}
+
+.homeSectionBgImage1 {
+    background: url('/public/homeBgImage1.jpg') top/cover no-repeat;
+}
+
+.homeSectionBgImage2 {
+    background: url('/public/homeBgImage2.jpg') top/cover no-repeat;
+}
+
+.homeSectionBgImage3 {
+    background: url('/public/homeBgImage3.jpg') center/cover no-repeat;
+}
+
+.homeSection {
+    padding: 60px 0 !important;
+    height: 100%;
+}
+
+.homeTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+}
+
+.homeSectionBgImage1 .homeTitle {
+    background: rgb(219, 225, 211, 0.4);
+    border-radius: 10px;
+}
+
+.aboutTitle p,
+.aboutTitle h2 {
+    color: white !important;
+}
+
+.collectionsContainer {
+    display: grid;
+    place-items: center;
+}
+
+.collections {
+    display: flex;
+    gap: 30px;
+    height: 500px;
+    width: 85%;
+}
+
+.collectionLeft {
+    flex: 1.5;
+    background: url('/public/1.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.collectionLeft h2 {
+    background-color: rgb(255, 250, 212, 0.9);
+    text-align: center;
+    width: 100%;
+    margin: 0 0 35px 0;
+    padding: 0 0 5px 0;
+}
+
+.collectionRight {
+    flex: 3.5;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.collectionsSubRight,
+.collectionSubLeft {
+    flex: 1;
+}
+
+
+.collectionsSubRight {
+    display: flex;
+    gap: 30px;
+}
+
+.collectionSubRightLeft {
+    flex: 2.5;
+    background: url('/public/2.jpg') top/cover no-repeat;
+}
+
+.collectionSubRightLeft h2 {
+    background-color: rgb(254, 230, 243, 0.9);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.collectionSubRightRight {
+    flex: 1.5;
+    background: url('/public/3.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.collectionSubRightRight h2 {
+    background-color: #20718c;
+    color: white;
+    width: max-content;
+    padding: 0 12px;
+    margin: 0 0 35px 0;
+}
+
+.collectionSubLeft {
+    background: url('/public/4.jpg') top/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collectionSubLeft h2 {
+    color: #1f6c86;
+    background-color: white;
+}
+
+.collectionSubLeft p {
+    background-color: #1f6c86;
+    color: white;
+    padding: 0px 80px;
+    border-radius: 3px;
+}
+
+.supportCards {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #eef5ff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.supportIcons {
+    background-color: #20718c;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.bigIcon {
+    font-size: 30px;
+    color: white;
+}
+
+.featuredProduct {
+    display: grid;
+    place-items: center;
+    gap: 30px;
+}
+
+
+.fashion h2 span {
+    background: #20718c;
+    padding: 0 15px;
+    border-radius: 3px;
+    color: white;
+}
+
+.fashion h1 {
+    color: white;
+    letter-spacing: 10px;
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+}
+
+.fashion h2 {
+    color: white;
+}
+
+.fashion p {
+    color: white;
+    letter-spacing: 10px;
+}
+
+@media screen and (max-width:1024px) {
+    .hide {
+        display: none;
+    }
+
+    .homeSectionBgImage2 .gridTwoColumn,
+    .homeSectionBgImage3 .gridTwoColumn {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .supportCards {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .collections {
+        flex-direction: column;
+        height: 700px;
+        width: 100%;
+    }
+
+    .supportCards {
+        gap: 5px;
+        padding: 15px 5px;
+    }
+
+    .gridColumnWidth {
+        width: 100%;
+    }
+
+    .testimonial4_slide {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .collections,
+    .collectionRight,
+    .collectionsSubRight {
+        gap: 10px
+    }
+
+    .fashion h1 {
+        letter-spacing: 5px;
+    }
+
+    .homeTitle {
+        width: 90%;
+    }
+
+    .homeMainContainer {
+        gap: 40px;
+    }
+
+}

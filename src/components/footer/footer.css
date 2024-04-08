@@ -1,0 +1,40 @@
+.footerMainContainer {
+    margin: 50px 0 0 0;
+    padding: 40px;
+    background-color: #EEF5FF;
+}
+
+.footerContainer {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+}
+
+.footerIcons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerInnerContainer {
+    display: grid;
+    gap: 5px;
+}
+
+.footerContactContainer {
+    width: 90%;
+}
+
+.footerInput {
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    width: 100%;
+    border: 0.5px solid #ababab;
+    background-color: transparent;
+}
+
+.contactTextarea {
+    height: 70px;
+}
