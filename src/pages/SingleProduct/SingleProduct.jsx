@@ -59,7 +59,7 @@ const SingleProduct = () => {
                     <div className='sectionContainer headerPages'>
                         <div className="headerSection">
                             <h3>Product</h3>
-                            <p><Link to="/">home</Link> / <Link to="/products">product</Link> / <Link to={`${singleProduct.id}`}>{singleProduct.title}</Link></p>
+                            <p><Link to="/">home</Link> / <Link to="/products">products</Link> </p>
                         </div>
                         <div className="singleProductContainer">
                             <div className="singleProductImage">
