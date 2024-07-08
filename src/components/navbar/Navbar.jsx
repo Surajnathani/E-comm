@@ -22,7 +22,7 @@ function Navbar() {
     return (
         <header className="header" id="header">
             <nav className="navbar sectionContainer">
-                <Link to="/" className="brand">Suraj</Link>
+                <Link to="/" className="brand">E-cart</Link>
                 <Search />
                 <div className={`menu ${isMenuActive ? 'is-active' : ''}`} id="menu">
                     <ul className="menu-inner">
